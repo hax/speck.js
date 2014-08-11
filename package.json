@@ -1,0 +1,23 @@
+{
+  "name": "speck.js",
+  "version": "0.0.0",
+  "description": "Speck block cipher in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hax/speck.js.git"
+  },
+  "keywords": [
+    "speck",
+    "cipher"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hax/speck.js/issues"
+  },
+  "homepage": "https://github.com/hax/speck.js"
+}
