@@ -1,6 +1,6 @@
 {
   "name": "speck.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Speck block cipher in JavaScript",
   "main": "index.js",
   "scripts": {
