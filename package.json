@@ -14,7 +14,7 @@
     "speck",
     "cipher"
   ],
-  "author": "",
+  "author": "hax <johnhax@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hax/speck.js/issues"
