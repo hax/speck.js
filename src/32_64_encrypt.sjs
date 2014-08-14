@@ -5,10 +5,13 @@ Speck 32/64 {
 	}
 
 	function encryptString(s, key) {
-		for (var i = 0; i < s.length; i++) {
-			var x = s.charCodeAt(i), y = s.charCodeAt(i++)
-			Encrypt (
+		var a = new Array(s.length)
+		for (var i = 0; i < s.length; i += 2) {
+			var x = s.charCodeAt(i), y = s.charCodeAt(i + 1)
+			//Encrypt (x, y, key)
+			a[i] = x, a[i + 1] = y
 		}
+		return int16ArrayToString(a)
 	}
 
 	function decryptString(s, key) {
