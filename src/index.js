@@ -1,5 +1,7 @@
-'use strict'
+var versions = require('./versions')
 
-module.exports = {
-	'32/64': require('./speck32-64')
-}
+versions.forEach(function (v) {
+	try {
+    	exports[v] = require('./' + v);
+    } catch (e) {}
+})
